@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar  section-A">
+                <div class="list-container">
+
+                    <a href="">Home</a>
+                    <a href="#section-D"> Menu</a>
+                    <div class="sch">
+
+                        <span id="s1"> Search : </span> <input type="search" name="search-food" id="search-item">
+                    </div>
+                    <a href="cart.html"> Cart</a>
+                    <a href=""> Contact us</a>
+
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <h2 id="head1">Food You Might Like :</h2>
+    <div class="section-B">
+        <div class="cate" id="cat1">
+            <img src="images/Pizza.png" alt="Pizza">
+            <pre class="cate-txt">Pizza  180 ₹</pre>
+            <button id="buy1"  class="buy"  value="180" onclick="AddItem('pizza','buy1')">Add to Cart</button>
+        </div>
+        <div class="cate" id="cat2">
+            <img src="images/burger.png" alt="burger">
+            <pre class="cate-txt">Burger 80 ₹</pre>
+            <button id="buy2" class="buy"  value="80" onclick="AddItem('burger','buy2')">Add to Cart</button>
+            
+        </div>
+        <div class="cate" id="cat3">
+            <img src="images/chinese.jpeg" alt="chinese">
+            <pre class="cate-txt">Chinese 220 ₹</pre>
+            <button id="buy3"  class="buy" value="220" onclick="AddItem('chinese','buy3')">Add to Cart</button>
+            
+        </div>
+        <div class="cate" id="cat4">
+            <img src="images/punjabi.jpeg" alt="punjabi">
+            <pre class="cate-txt">Punjabi 190 ₹</pre>
+            <button id="buy4"  class="buy" value="190" onclick="AddItem('punjabi','buy4')">Add to Cart</button>
+        </div>
+        
+        <div class="cate" id="cat5">
+            <img src="images/south indian.jpeg" alt="South-indian">
+            <pre class="cate-txt">South-indian 200 ₹</pre>
+            <button id="buy5"  class="buy" value="200" onclick="AddItem('south_indian','buy5')">Add to Cart</button>
+            
+        </div>
+        <div class="cate" id="cat6">
+            <img src="images/cake.jpeg" alt="cake">
+            <pre class="cate-txt">Cake 350 ₹</pre>
+            <button id="buy6" class="buy"  value="350" onclick="AddItem('cake','buy6')">Add to Cart</button>
+
+        </div>
+    </div>
+    <div class="section-C">
+        <div class="sec-txt">
+            <h1>Restaurants You Might Like : </h1>
+        </div>
+        <div class="filters">
+            <button>bt1</button>
+            <button>bt2</button>
+            <button> bt3</button>
+        </div>
+    </div>
+    <div class="section-D" id="section-D">
+        <div class="rest-container">
+            <div class="row1">
+                <div class="rest" id="rest1">
+
+
+                    <img src="images/burger-king.avif" alt="burger-king">
+
+                    <pre class="rest-span" > Burger-king    4.3 ⭐</pre>
+                    
+                    <pre class="rest-span"> 25-30 Min </pre>
+
+                </div>
+                <div class="rest" id="rest2">
+
+                    <img src="images/McD.avif" alt="McD">
+                    <pre class="rest-span">Mac Donalds    4.5 ⭐ </pre>
+                    <pre class="rest-span">30-35 Min   </pre>
+                </div>
+                <div class="rest" id="rest3">
+
+                    <img src="images/Baskin-robins.avif" alt="Baskin-robins">
+                    <pre class="rest-span">Baskin-robins    4.1 ⭐ </pre>
+                    <pre class="rest-span">25-30 Min   </pre>
+                </div>
+                <div class="rest" id="rest4">
+
+                    <img src="images/Biryani-house.avif" alt="Biryani-house">
+                    <pre class="rest-span">Biryani-house    3.9 ⭐ </pre>
+                    <pre class="rest-span">30-35 Min   </pre>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="rest" id="rest5">
+
+                    <img src="images/Farki.avif" alt="Farki">
+                    <pre class="rest-span">Farki    4.5 ⭐ </pre>
+                    <pre class="rest-span">20-25 Min   </pre>
+                </div>
+                <div class="rest" id="rest6">
+
+                    <img src="images/Gulalwadi.avif" alt="Gulalwadi">
+                    <pre class="rest-span">Gulalwadi    4.5 ⭐ </pre>
+                    <pre class="rest-span">30-35 Min   </pre>
+                </div>
+                <div class="rest" id="rest7">
+
+                    <img src="images/KFC.avif" alt="KFC">
+                    <pre class="rest-span">KFC    4.0 ⭐ </pre>
+                    <pre class="rest-span">20-25 Min   </pre>
+                </div>
+                <div class="rest" id="rest8">
+
+                    <img src="images/pizza-hut.avif" alt="pizza-hut">
+                    <pre class="rest-span">Pizza-Hut    4.5 ⭐ </pre>
+                    <pre class="rest-span">30-35 Min   </pre>
+                </div>
+            </div>
+            <div class="row3">
+                <div class="rest" id="rest9">
+
+                    <img src="images/La Pino'z.avif" alt="La Pino'z">
+                    <pre class="rest-span">La Pino'z    4.2 ⭐ </pre>
+                    <pre class="rest-span">25-30 Min   </pre>
+                </div>
+                <div class="rest" id="rest10">
+
+                    <img src="images/rest6.avif" alt="sakti">
+                    <pre class="rest-span">Sakti sandwitch    4.3 ⭐ </pre>
+                    <pre class="rest-span">25-30 Min   </pre>
+                </div>
+                <div class="rest" id="rest11">
+
+                    <img src="images/rest2.avif" alt=" China Hub">
+                    <pre class="rest-span">China Hub    4.0 ⭐ </pre>
+                    <pre class="rest-span">20-25 Min   </pre>
+                </div>
+                <div class="rest" id="rest12">
+
+                    <img src="images/rest3.avif" alt=" jay-bhavani">
+                    <pre class="rest-span">Jay Bhavani    4.0 ⭐ </pre>
+                    <pre class="rest-span">20-25 Min   </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="fot-div">
+            <center>
+                <h2> Food Hub </h2>
+                <br>
+                <li type="none" style="color: rgba(0, 0, 0, 0.758);" id="cpy">@copy All Copyrigths are reserved </li>
+
+            </center>
+        </div>
+        <div class="fot-div">
+              <center>
+                <h2> Company </h2>
+                <br>
+                <br><br>
+                <li type="none" style="color: rgba(0, 0, 0, 0.758);"> About Us </li>
+                <li type="none" style="color: rgba(0, 0, 0, 0.758);"> Carrears</li>
+                <li type="none" style="color: rgba(0, 0, 0, 0.758);"> Team</li>
+                <li type="none" style="color: rgba(0, 0, 0, 0.758);"> Dineout</li>
+            </center>
+        </div>
+        <div class="fot-div">
+            <center>
+                <h2> Contact Us  </h2>
+                <br><br><br>
+                <li type="none" style="color: rgba(0, 0, 0, 0.758);"> Help Us & Support  </li>
+                <li type="none" style="color: rgba(0, 0, 0, 0.758);"> Partner with us</li>
+                <li type="none" style="color: rgba(0, 0, 0, 0.758);"> Terms and conditions </li>
+                <li type="none" style="color: rgba(0, 0, 0, 0.758);"> Privacy Policy</li>
+            </center>
+            
+        </div>
+        <div class="fot-div">
+             <center>
+                <h2> Availiable At </h2>
+                <br><br><br>
+                <li type="none" style="color: rgba(0, 0, 0, 0.758);"> Ahmedabad </li>
+                <li type="none" style="color: rgba(0, 0, 0, 0.758);"> Mumbai </li>
+                <li type="none" style="color: rgba(0, 0, 0, 0.758);"> Delhi</li>
+                <li type="none" style="color: rgba(0, 0, 0, 0.758);"> Kolkata</li>
+                <li type="none" style="color: rgba(0, 0, 0, 0.758);"> Pune</li>
+                <li type="none" style="color: rgba(0, 0, 0, 0.758);"> Rajkot</li>
+            </center>
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

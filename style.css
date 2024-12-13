@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #08e58570;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    height: 4.2rem;
+    width: 100%;
+    display: flexbox;
+    /* background-color: #87c9accc; */
+    background-color:rgb(121, 201, 107);
+    align-content: center;
+    border-bottom: 3px solid rgb(14, 81, 2);
+
+}
+.list-container{
+    
+    height: 50px;
+    width: auto;
+    margin-top: 25px;
+    display: flex;
+    /* background-color:chartreuse; */
+    align-items: center;
+    justify-content: space-between;
+}
+.list-container a{
+    font-size:x-large;
+    /* text-decoration: none; */
+    color: black;
+    font-style: bold;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+/* .list-container a:hover{
+    border: 4px solid white;
+    padding-top:  150px;
+} */
+#s1{
+    font-size: x-large;
+    font-weight: bold;
+}
+.buy:active{
+    background-color: antiquewhite;
+}
+#search-item{
+    background-color: rgba(206, 137, 237, 0.902);
+    height: 1.7rem;
+    border-radius: 2rem;
+    font-size: large;
+}
+
+#search-item:focus{
+    width: 18rem;
+}
+#head1{
+    margin-top: 15vh;
+    margin-left: 5rem;
+    font-size: 2rem;
+    /* background-color: #87c9accc; */
+    color: #700fef;
+}
+.section-B{
+    /* background-color:rgba(128, 128, 128, 0.53); */
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin: 1.5rem 0.8rem 2rem 0.8rem;
+    height: 40vh;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.cate{
+    height: 70%;
+    width: 20%;
+    background-color: palevioletred;
+    
+    border-radius: 1.6rem;
+    margin: 1rem;
+    margin-top: 1.2rem;
+    border: 4px solid black;
+}
+.cate img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+    border-radius: 1.5rem;
+}
+.cate-txt{
+    margin-left: 1.5rem;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    color: #700fef;
+    font-weight: bold;
+}
+.buy{
+    height: 30px;
+    width: 80px;
+    color: rgba(43, 5, 232, 0.92);
+    font-style: italic;
+    background-color: rgba(8, 238, 234, 0.475);
+    border: 3px solid black;
+    margin-left: 50px;
+}
+
+.section-C{
+    /* border-top: 3px solid black; */
+    border-bottom: 3px solid black;
+    margin: 3rem 0.8rem 2rem 0.8rem;
+    height: 8rem;
+    /* display: flex; */
+    justify-content: space-between;
+}
+.sec-txt{
+    margin-top: 0.8rem;
+    margin-left: 3rem;
+    padding-bottom: 0.8rem;
+    width: auto;
+    color: #700fef;
+    /* border-bottom: 2px solid rgb(6, 6, 240); */
+}
+.filters{
+    margin-top: 1rem;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section-D{
+    margin: 0.5rem 0.8rem 2rem 0.8rem;
+    height: 60rem;
+    width: 90%;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    justify-content: space-between; 
+    /* border: 4px solid rgb(239, 2, 2); */
+}
+.rest-container{
+    height: 95%;
+    width: 100%;
+    margin: 1rem;
+    display: flexbox ;
+    /* border: 2px solid purple; */
+}
+.row1{
+    margin: 1rem;
+    /* margin: 1.5rem 0.8rem 3rem 0.8rem; */
+    height: 30%;
+    /* border-top: 2px solid blue;
+    border-bottom: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;  
+    
+}
+.row2{
+    margin: 1rem;
+    /* margin: 1.5rem 0.8rem 3rem 0.8rem; */
+    height: 30%;
+    display: flex;
+    justify-content: space-between;   
+    /* border-top: 2px solid blue;
+    border-bottom: 2px solid blue; */
+}
+.row3{
+    margin: 1rem;
+    /* margin: 1.5rem 0.8rem 3rem 0.8rem; */
+    height: 30%;
+    display: flex;
+    justify-content: space-between;   
+    /* border-top: 2px solid blue;
+    border-bottom: 2px solid blue; */
+}
+.rest{
+    height: 80%;
+    width: 80%;
+    margin-right: 3%;
+    font-size: 130%;
+    color: #700fef;
+    font-weight: bold;
+}
+.rest-span{
+    margin-left: 1rem;
+}
+.rest img{
+    height: 100%;
+    width: 100%;
+    margin: 0.5rem;
+    border-radius: 2rem;
+}
+footer{
+    height: 15rem;
+    width: 100%;
+    /* position: fixed; */
+    background-color: whitesmoke;
+    display: flex;
+    /* margin-bottom: 2rem; */
+    position: absolute;
+    /* bottom: 0; */
+}
+.fot-div{
+    height: auto;
+    width: 32%;
+    border: 3px solid darkgray;
+    
+}
+#cpy{
+    margin-top: 30%;
+}

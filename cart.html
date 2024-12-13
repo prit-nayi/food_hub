@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body2">
+    <center>
+
+        <table border="5" height="300" width="300">
+            <caption> Your Cart </caption>
+            <tr>
+            <td align="center"> Item    </td>
+            <td align="center"> Price   </td>
+        </tr>
+        <tr>
+            <td align="center">  <big> <pre id="item-text"> </pre>  </big>  </td>
+            <td align="center"> <big> <pre id="price-text"></pre>  </big>  </td>
+        </tr>
+        <tr>
+
+            <td colspan="2" >
+        </tr>
+        <tr>
+            <td> <center><b><big> Total : - </big></b></center></td>
+            <td id="tot"> </td>
+        </tr>
+    </table>
+</center>
+
+    <script >
+        rows = sessionStorage.getItem('items').split(',');
+        cols = sessionStorage.getItem('prices').split(',');
+        let amt = 0;
+        for(let i=0; i<rows.length; i++)
+        {
+            amt += parseInt(cols[i]);
+        document.getElementById('item-text').innerHTML += rows[i]+'\n'+'<hr>';
+        document.getElementById('price-text').innerHTML += `${cols[i]}\n`+'<hr>';
+        document.getElementById('tot').innerHTML = '<center><big><b>'+ amt+'</b></big></center>';
+        }
+    </script>
+</body>
+</html>
